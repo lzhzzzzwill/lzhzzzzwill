@@ -6,4 +6,4 @@
 
 - 📮 You can connect to me by [email](mailto:lzhzzzzgkbs@163.com).
 
-[![Top Langs](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=victormurcia&theme=dracula&langs_count=15)](https://github.com/victormurcia/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
