@@ -2,7 +2,7 @@
   
 - <p><em> 😸 My two kitties, AKA hh and zz, salute you <img src="https://github.com/lzhzzzzwill/lzhzzzzwill/blob/main/kitty/hhzz.png" width="50">  .
 
-- 🧐 My interest lies in applying machine learning to MOFs.
+- 🧐 My interest lies in applying machine learning to chemical & environmental engineering.
 
 - 📮 You can connect to me by [email](mailto:lzhzzzzgkbs@163.com).
 
