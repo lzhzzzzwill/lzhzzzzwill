@@ -1,6 +1,9 @@
-<p align="center">
-  <h1 height="200px" align="center">
- 🤠 What's up, I'm Zuhong Lin <img src="https://cdn.jsdelivr.net/gh/MaleWeb/picture/images/techblog/hi.gif" width="25"></h1> <p align="center"></p> </p>
+<div align="center">
+  <h1>
+    🤠 What's up, I'm Zuhong Lin 
+    <img src="https://cdn.jsdelivr.net/gh/MaleWeb/picture/images/techblog/hi.gif" width="25" alt="waving hand">
+  </h1>
+</div>
   
 - <p><em> 😸 My two kitties, AKA hh and zz, salute you <img src="https://github.com/lzhzzzzwill/lzhzzzzwill/blob/main/kitty/hhzz.png" width="50">  .
 
