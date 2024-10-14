@@ -15,11 +15,17 @@
     <tr>
         <!-- left -->
         <td valign="top">
-            <h3>Rencet Work</h3>
-            <a href="https://github.com/lzhzzzzwill/Interpretable-Machine-Learning-MOFs-for-Arsenic-Adsorption" target="_blank">MLs-MOF-As</a><br>
-            <a href="https://github.com/lzhzzzzwill/GCN-Model-for-Arsenate-Adsorption-MOFs" target="_blank">GCN-MOF-As</a><br>
-            <a href="https://github.com/lzhzzzzwill/QSAR-Models-for-Kaop-Prediction" target="_blank">QSARs-Kaop</a><br>
-        </td>
+            <h3>Recent Work</h3>
+            <a href="https://github.com/lzhzzzzwill/Interpretable-Machine-Learning-MOFs-for-Arsenic-Adsorption" target="_blank">
+                 <img src="https://img.icons8.com/?size=100&id=DvTCSuTh6JPs&format=png&color=000000" alt="MLs-MOF-As" title="MLs-MOF-As" width="40">
+            </a><br>
+            <a href="https://github.com/lzhzzzzwill/GCN-Model-for-Arsenate-Adsorption-MOFs" target="_blank">
+                 <img src="https://img.icons8.com/?size=100&id=99331&format=png&color=000000" alt="GCN-MOF-As" title="GCN-MOF-As" width="40">
+            </a><br>
+            <a href="https://github.com/lzhzzzzwill/QSAR-Models-for-Kaop-Prediction" target="_blank">
+                 <img src="https://img.icons8.com/?size=100&id=EXPmTJcJQe1q&format=png&color=000000" alt="QSARs-Kaop" title="QSARs-Kaop" width="40">
+            </a><br>
+</td>
         <!-- right -->
         <td valign="top">
             <a href="https://github.com/anuraghazra/github-readme-stats">
