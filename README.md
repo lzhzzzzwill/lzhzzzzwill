@@ -16,6 +16,10 @@
         <!-- left -->
         <td valign="top">
             <h3>Recent Work</h3>
+            <a href="https://github.com/lzhzzzzwill/MOFh6" target="_blank">
+                 <img src="https://img.icons8.com/?size=100&id=vCunXELWlXOs&format=png&color=000000" alt="MOFh6" title="MOFh6" width="40">
+                 <span style="vertical-align: middle;">MOFh6</span>
+            </a><br>
             <a href="https://github.com/lzhzzzzwill/Interpretable-Machine-Learning-MOFs-for-Arsenic-Adsorption" target="_blank">
                  <img src="https://img.icons8.com/?size=100&id=DvTCSuTh6JPs&format=png&color=000000" alt="MLs-MOF-As" title="MLs-MOF-As" width="40">
                  <span style="vertical-align: middle;">MLs-MOF-As</span>
