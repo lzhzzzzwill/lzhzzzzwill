@@ -5,7 +5,7 @@
   </h1>
 </div>
   
-- 🐾 My two kitties, AKA hh and zz, salute you <img src="https://github.com/lzhzzzzwill/lzhzzzzwill/blob/main/kitty/hhzz.png" width="50">  .
+- 🐾 hh and zz, salute you <img src="https://github.com/lzhzzzzwill/lzhzzzzwill/blob/main/kitty/hhzz.png" width="50">  .
 
 - 🧐 My interest lies in applying machine learning to chemical & environmental engineering.
 
