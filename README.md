@@ -1,6 +1,6 @@
 <div align="center">
   <h1>
-    🤠 What's up, I'm Willzh 
+    🤠 Hi, I'm Willzh 
     <img src="https://cdn.jsdelivr.net/gh/MaleWeb/picture/images/techblog/hi.gif" width="25" alt="waving hand">
   </h1>
 </div>
