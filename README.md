@@ -13,19 +13,12 @@
 
 <table align="left">
     <tr>
-        <!-- left -->
+  
         <td valign="top">
             <h3>Recent Work</h3>
             <a href="https://github.com/lzhzzzzwill/MOFh6" target="_blank">
                  <img src="https://img.icons8.com/?size=100&id=vCunXELWlXOs&format=png&color=000000" alt="MOFh6" title="MOFh6" width="40">
                  <span style="vertical-align: middle;">MOFh6</span
             </a><br>
-</td>
-        <!-- right -->
-        <td valign="top">
-            <a href="https://github.com/anuraghazra/github-readme-stats">
-                <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lzhzzzzwill" alt="Top Langs">
-            </a>
-        </td>
     </tr>
 </table>
