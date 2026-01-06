@@ -11,14 +11,18 @@
 
 - 📮 Feel free to drop me a line at [email](mailto:lzhzzzzgkbs@163.com).
 
-<table align="left">
-    <tr>
-  
-        <td valign="top">
-            <h3>Recent Work</h3>
-            <a href="https://github.com/lzhzzzzwill/MOFh6" target="_blank">
-                 <img src="https://img.icons8.com/?size=100&id=vCunXELWlXOs&format=png&color=000000" alt="MOFh6" title="MOFh6" width="40">
-                 <span style="vertical-align: middle;">MOFh6</span
-            </a><br>
-    </tr>
+<table>
+  <tr>
+    <td valign="top">
+      <h3>Recent Work</h3>
+      <a href="https://github.com/lzhzzzzwill/MOFh6" target="_blank">
+        <img src="https://img.icons8.com/?size=100&id=vCunXELWlXOs&format=png&color=000000"
+             alt="MOFh6"
+             title="MOFh6"
+             width="40"
+             style="vertical-align: middle;">
+        <span style="vertical-align: middle;">MOFh6</span>
+      </a>
+    </td>
+  </tr>
 </table>
