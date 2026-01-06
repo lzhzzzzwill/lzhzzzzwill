@@ -13,20 +13,20 @@
 
 ### Recent Work
 
-<table style="width: 100%; border-collapse: collapse;">
-  <tr>
-    <td style="
-      padding: 12px 16px;
-      border: 1px solid #d0d7de;
-      border-radius: 8px;
-    ">
-      <img src="https://img.icons8.com/?size=100&id=vCunXELWlXOs&format=png&color=000000"
-           width="36"
-           style="vertical-align: middle;">
-      <a href="https://github.com/lzhzzzzwill/MOFh6" target="_blank"
-         style="margin-left: 8px; font-size: 18px; font-weight: 600;">
-        MOFh6
-      </a>
-    </td>
-  </tr>
-</table>
+<!-- spacer -->
+
+<div style="
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 16px;
+  border: 1px solid #d0d7de;
+  border-radius: 8px;
+">
+  <img src="https://img.icons8.com/?size=100&id=vCunXELWlXOs&format=png&color=000000"
+       width="36">
+  <a href="https://github.com/lzhzzzzwill/MOFh6" target="_blank"
+     style="font-size: 18px; font-weight: 600; text-decoration: none;">
+    MOFh6
+  </a>
+</div>
