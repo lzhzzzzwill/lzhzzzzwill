@@ -4,8 +4,6 @@
     <img src="https://cdn.jsdelivr.net/gh/MaleWeb/picture/images/techblog/hi.gif" width="25" alt="waving hand">
   </h1>
 </div>
-  
-- 🐾 hh and zz, salute you <img src="https://github.com/lzhzzzzwill/lzhzzzzwill/blob/main/kitty/hhzz.png" width="50">  .
 
 - 🧐 My interest lies in applying machine learning to chemical & environmental engineering.
 
