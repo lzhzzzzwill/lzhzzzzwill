@@ -25,6 +25,6 @@
        width="36">
   <a href="https://github.com/lzhzzzzwill/LLM4FMatter" target="_blank"
      style="font-size: 18px; font-weight: 600; text-decoration: none;">
-    MOFh6
+    LLM4FMatter
   </a>
 </div>
