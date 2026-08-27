@@ -23,7 +23,7 @@
 ">
   <img src="https://img.icons8.com/?size=100&id=vCunXELWlXOs&format=png&color=000000"
        width="36">
-  <a href="https://github.com/lzhzzzzwill/MOFh6" target="_blank"
+  <a href="https://github.com/lzhzzzzwill/LLM4FMatter" target="_blank"
      style="font-size: 18px; font-weight: 600; text-decoration: none;">
     MOFh6
   </a>
