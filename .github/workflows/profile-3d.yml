@@ -29,6 +29,57 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
+      - name: Apply northern seasons to GitBlock textures
+        run: |
+          python3 - <<'PY'
+          import copy
+          import re
+          from pathlib import Path
+          import xml.etree.ElementTree as ET
+          
+          NS = {"s": "http://www.w3.org/2000/svg"}
+          ET.register_namespace("", NS["s"])
+          folder = Path("profile-3d-contrib")
+          blocks = ET.parse(folder / "profile-gitblock.svg")
+          seasons = ET.parse(folder / "profile-season.svg")
+          root = blocks.getroot()
+          css = "\n".join(node.text or "" for node in seasons.findall("s:style", NS))
+          colors = dict(re.findall(r"\.(cont-(?:top|left|right)-p\d+-\d)\s*\{\s*fill:\s*([^;]+);", css))
+          season_faces = [node for node in seasons.iter() if re.fullmatch(r"cont-(top|left|right)-p\d+-\d", node.get("class", ""))]
+          block_faces = [node for node in root.iter() if re.fullmatch(r"url\(#pattern_\d_(top|left|right)\)", node.get("fill", ""))]
+          if not season_faces or len(block_faces) != len(season_faces):
+              raise ValueError("Calendar faces do not match")
+          defs = root.find("s:defs", NS)
+          patterns = {node.get("id"): node for node in defs}
+          created = set()
+          for face, seasonal in zip(block_faces, season_faces):
+              key = seasonal.get("class")
+              match = re.fullmatch(r"cont-(top|left|right)-p\d+-(\d)", key)
+              panel, level = match.groups()
+              old_id = "pattern_" + level + "_" + panel
+              if face.get("fill") != "url(#" + old_id + ")":
+                  raise ValueError("Calendar contribution levels do not match")
+              new_id = "season-" + key
+              if new_id not in created:
+                  pattern = copy.deepcopy(patterns[old_id])
+                  pattern.set("id", new_id)
+                  color = colors[key].strip()
+                  rgb = [int(value) for value in re.findall(r"\d+", color)]
+                  if len(rgb) != 3:
+                      raise ValueError("Unexpected season color: " + color)
+                  ink = "rgb(" + ", ".join(str(round(value * 0.4)) for value in rgb) + ")"
+                  for node in pattern.iter():
+                      cls = node.get("class", "")
+                      if cls.startswith("cont-"):
+                          node.attrib.pop("class")
+                          node.set("fill", ink if "-fg-" in cls else color)
+                  defs.append(pattern)
+                  created.add(new_id)
+              face.set("fill", "url(#" + new_id + ")")
+          output = folder / "profile-gitblock-season.svg"
+          blocks.write(output, encoding="unicode")
+          print("Generated", output, "with", len(block_faces), "seasonal faces")
+          PY
       - name: Commit and push updated calendars
         run: |
           git config user.name "github-actions[bot]"
@@ -40,3 +91,4 @@ jobs:
           fi
           git commit -m "Update 3D contribution calendars"
           git push
+
