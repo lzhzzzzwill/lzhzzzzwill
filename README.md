@@ -28,3 +28,12 @@
     LLM4FMatter
   </a>
 </div>
+
+
+### 3D Contributions
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-rainbow.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-green-animate.svg">
+  <img alt="My GitHub contributions in 3D" src="./profile-3d-contrib/profile-green-animate.svg" width="100%">
+</picture>
