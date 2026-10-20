@@ -30,7 +30,7 @@
 </div>
 
 
-### 3D Contributions
+### Contributions
 
 <img alt="My GitHub contributions in GitBlock style with northern hemisphere seasonal colors" src="./profile-3d-contrib/profile-gitblock-season.svg" width="100%">
 
