@@ -21,6 +21,38 @@
   border: 1px solid #d0d7de;
   border-radius: 8px;
 ">
+  <img src="https://img.icons8.com/?size=100&id=JfpWHfOrYeiW&format=png&color=000000"
+       width="36">
+  <a href="https://github.com/lzhzzzzwill/RaChor" target="_blank"
+     style="font-size: 18px; font-weight: 600; text-decoration: none;">
+    RaChor
+  </a>
+</div>
+
+<div style="
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 16px;
+  border: 1px solid #d0d7de;
+  border-radius: 8px;
+">
+  <img src="https://img.icons8.com/?size=100&id=-r4KGo880Lo1&format=png&color=000000"
+       width="36">
+  <a href="https://github.com/lzhzzzzwill/MOFh6" target="_blank"
+     style="font-size: 18px; font-weight: 600; text-decoration: none;">
+    MOFh6
+  </a>
+</div>
+
+<div style="
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 16px;
+  border: 1px solid #d0d7de;
+  border-radius: 8px;
+">
   <img src="https://img.icons8.com/?size=100&id=vCunXELWlXOs&format=png&color=000000"
        width="36">
   <a href="https://github.com/lzhzzzzwill/LLM4FMatter" target="_blank"
